@@ -1,0 +1,78 @@
+!UIPageAsset
+Id: 16d45395-d2b7-4f76-b183-277a64814cc3
+SerializedVersion: {Stride: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+Hierarchy:
+    RootParts:
+        - !Grid ref!! 52a84770-e068-418c-a147-be0b772d9452
+    Parts:
+        -   UIElement: !TextBlock
+                Id: 38d451b6-c97a-41eb-935b-ea2967bb14ef
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {Left: 260.0, Top: 50.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: Blocks Num
+                Text: 000
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 64.0
+                TextColor: {R: 0, G: 114, B: 232, A: 255}
+        -   UIElement: !TextBlock
+                Id: 41c0ac47-2281-4f2f-a443-34ef8924155c
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {Left: 150.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: FPS Num
+                Text: 000
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 64.0
+                TextColor: {R: 0, G: 114, B: 232, A: 255}
+        -   UIElement: !TextBlock
+                Id: 50a81c95-3feb-47c2-a4c5-a8a7a5ff169d
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {Top: 50.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: 'Blocks:'
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 64.0
+                TextColor: {R: 0, G: 114, B: 232, A: 255}
+        -   UIElement: !Grid
+                Id: 52a84770-e068-418c-a147-be0b772d9452
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 1280.0
+                Height: 720.0
+                Margin: {Left: 16.0, Right: -16.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Children:
+                    d4db4ade3300b1f290e675beaa9f08a3: !TextBlock ref!! 87290fc8-2187-4b94-9729-688adf4963db
+                    8be2babe302f2c7976351294902ecdbe: !TextBlock ref!! 41c0ac47-2281-4f2f-a443-34ef8924155c
+                    d5650a229e6f301e917c0d33ba21b1ff: !TextBlock ref!! 50a81c95-3feb-47c2-a4c5-a8a7a5ff169d
+                    754914c7ec2155c75432585f71c2c4f0: !TextBlock ref!! 38d451b6-c97a-41eb-935b-ea2967bb14ef
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !TextBlock
+                Id: 87290fc8-2187-4b94-9729-688adf4963db
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: 'FPS:'
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 64.0
+                TextColor: {R: 0, G: 114, B: 232, A: 255}
